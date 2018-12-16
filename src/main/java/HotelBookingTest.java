@@ -12,9 +12,7 @@ import org.testng.annotations.Test;
 public class HotelBookingTest {
 
     WebDriver driver;
-    public HotelBookingTest(){
-    	
-    }
+    public HotelBookingTest(){}
     public HotelBookingTest(WebDriver driver){
     	AjaxElementLocatorFactory ajaxElemFactory = new AjaxElementLocatorFactory(driver, 10);
         PageFactory.initElements(ajaxElemFactory, this);
